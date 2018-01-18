@@ -3,6 +3,14 @@
 git init
 git clone <Remote> <LocalFolder>
 ```
+# Informationen
+```
+git show - den letzten Commit in vollem Umfang anschauen
+git log - die gesammte Versionsgeschichte anzeigen
+git diff - die Änderungen vom letzten Commit zum aktuellen Stand anzeigen
+gitk - Visualisierung der Repositories
+tig - Visualisierung in Textform
+```
 # Branches
 ```
 git branch - auflisten aller Branches
@@ -19,4 +27,12 @@ git commit -m <massage> - Commit inkl. Commitmassage
 ```
 git rebase <branchname> - bringt den HEAD auf den stand des angegebenen Branches
 git merge <branchname> [<branchname2>] - merged den angegeben Branch in HEAD [in den angegeben Branch]
+```
+# Rückgängig machen
+```
+git reverte <commit> - Erstellt einen neuen commit der eine alte änderung Rückgängig macht
+git reset HEAD - Setzt den Index zurück
+git checkout HEAD~2 - Stellt den zustand vor zwei Commits wieder her
+git show HEAD~2:<datei> - anschauen wie eine Datei vor zwei Versionen aussah
+git reset --hard HEAD~2 - Löscht die letzten beiden Commits unwiederruflisch!
 ```
