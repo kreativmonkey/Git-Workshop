@@ -45,10 +45,24 @@ git commit -m "Mein erster Commit"
 git status
 ```
 
+## Git Configuration
+
+```
+# Config in Yaml file
+cat ~/.gitconfig # Zeigt die globalen Konfigurationen von Git
+
+cat .git/config
+
+git config user.name # Wirkt sich auf das Repository aus
+
+git config --global user.name # Wirkt sich auf die globale Konfiguration aus.
+```
+
+
 ## Die History
 
 Mit hilfe von ``git log`` können wir uns nun die History anzeigen lassen.
-
+bekommen
 ```{.bash}
 commit a4045440894fbcf790782a41469016f3f84acc57 (HEAD -> master)
 Author: Kreativmonkey <kreativmonkey@ffmyk.de>
