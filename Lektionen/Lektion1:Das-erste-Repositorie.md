@@ -38,3 +38,22 @@ git commit -m "Mein erster Commit"
 
 git status
 ```
+
+## Das Log
+
+Mit hilfe von ``git log`` können wir uns nun das log ausgeben lassen.
+
+```{.bash}
+commit a4045440894fbcf790782a41469016f3f84acc57 (HEAD -> master)
+Author: Kreativmonkey <kreativmonkey@ffmyk.de>
+Date:   Sun Feb 18 14:09:49 2018 +0100
+
+    Mein erster Commit
+```
+
+| Reverenzierung | Beschreibung |
+| -------------- | ------------ |
+| commit-id (kurz - lang) | Sie ist eine SHA-1-Checksumme, sie ist eindeutig und wird zur genauen Identifizierung eines Commits benötigt. |
+| HEAD | Aktueller stand |
+| master | Branch |
+
