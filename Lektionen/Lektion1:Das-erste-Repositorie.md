@@ -35,13 +35,19 @@ Für eine kürzere Statusausgabe: ``git status -s``, dabei steht ``>A<`` für Ad
 git add -A # Alles hinzufügen
 
 git commit -m "Mein erster Commit"
+```
+
+Nun sollte bei allen die Git frisch installiert haben eine Fehlermeldung auftauchen. Git benötigt für den Commit einen Benutzernamen und eine E-Mail Adresse um diese in der Commithistory anzeigen zu können.
+
+```{.bash}
+git commit -m "Mein erster Commit"
 
 git status
 ```
 
-## Das Log
+## Die History
 
-Mit hilfe von ``git log`` können wir uns nun das log ausgeben lassen.
+Mit hilfe von ``git log`` können wir uns nun die History anzeigen lassen.
 
 ```{.bash}
 commit a4045440894fbcf790782a41469016f3f84acc57 (HEAD -> master)
