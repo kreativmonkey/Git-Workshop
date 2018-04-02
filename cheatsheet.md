@@ -1,3 +1,15 @@
+# Settings
+| Befehl | Bedeutung |
+| ------ | --------- |
+| ``git config --global color.ui true`` | Aktiviert eine farbige Ausgabe auf der Konsole. |
+| ``git config --global user.name "Max Muster"`` | Setzt einen Nutzernamen der in der Historie verwendet wird |
+| ``git config --global user.email mail@adresse.com`` | Setzt die E-Mail des Nutzers |
+| ``git config --global core.editor vim`` | Setze den commit Editor |
+| ``git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -nosession"`` | Für Windowsnutzer |
+| ``git config --global rebase.autosquash true`` | Führt bei ``git rebase`` automatisch ``git rebase --autosquash`` durch |
+| ``git config --global pull.rebase true`` | Führt automatisch ``git pull --rebase`` aus wenn ``git pull`` ausgeführt wird. |
+
+
 # Initial
 ```
 git init
